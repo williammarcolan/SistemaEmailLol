@@ -1,0 +1,191 @@
+ *{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+	border: 0;
+	font-size:20px;
+	font-family: sans-serif;
+}
+
+@media only screen and (max-width:768px){
+	body{
+		background-color:rgb(13, 9, 3);
+	}
+	
+	#poppy{
+		display: none;
+	}
+
+	#logo{
+		width: 80vw;
+		margin: -20vw auto;
+		position: absolute;
+		top:20vw;
+		left: 10vw;
+		z-index: 999;
+	}
+	#logo img{
+		width: 100%;
+	}
+	
+	form{
+		border-radius: 20px;
+		background-color: rgb(20, 20, 20);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 90%;
+		margin-left: 5%;
+		padding: 20vw 5% 10%;
+		margin-top: 20vw;
+
+	}
+	p{
+		margin-left: 5%;
+		color: #fff;
+	}
+	label{
+		color: #fff;
+		padding-left: 5%;
+		margin-right: 20%;
+	}
+	input{
+		margin-left: 5%;
+	}
+	#nickname input{
+		width: 60%;
+		height: 5vw;
+	}
+	#email input{
+		width: 60%;
+		height: 5vw;
+	}
+	#nickname label{
+		width: 20%;
+		
+	}
+	#email label{
+		width: 20%;
+	}
+	#email{
+		margin-bottom: 20px;
+	}
+
+	.div-input{
+		display: flex;
+		flex-direction: column;
+		flex-flow: row;
+
+	}
+
+	#enviar{
+		font-size: 2em;
+		width: 95%;
+		padding: 2%;
+		margin-left: 5%;
+
+	}
+	footer{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background-color: #fff;
+		width: 100%;
+		text-align: center;
+	}
+}
+@media only screen and (min-width:769px){
+	body{
+		background-color:rgb(13, 9, 3);
+	}
+	
+	#poppy{
+		position: fixed;
+		bottom: 0;
+		left: -270px;
+		z-index: 1;
+		width: 200px;
+	}
+
+	#logo{
+		width: 50vw;
+		margin: -20vw auto;
+		position: absolute;
+		top:30vw;
+		left: 25vw;
+		z-index: 999;
+	}
+	#logo img{
+		width: 100%;
+	}
+	
+	form{
+		border-radius: 20px;
+		background-color: rgb(20, 20, 20);
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 70%;
+		margin-left: 15%;
+		padding: 20vw 5% 30vw;
+		margin-top: 20vw;
+		margin-bottom: 10vw;
+	}
+	p{
+		margin-left: 5%;
+		color: #fff;
+	}
+	label{
+		color: #fff;
+		padding-left: 5%;
+		margin-right: 20%;
+	}
+	input{
+		margin-left: 5%;
+	}
+	#nickname input{
+		width: 50%;
+		height: 30px;
+	}
+	#email input{
+		width: 50%;
+		height: 30px;
+	}
+	#nickname label{
+		width: 30%;
+		
+	}
+	#email label{
+
+		width: 30%;
+	}
+	#email{
+		margin-bottom: 20px;
+	}
+
+	.div-input{
+		display: flex;
+		flex-direction: column;
+		flex-flow: row;
+
+	}
+
+	#enviar{
+		float: right;
+		font-size: 2em;
+		width: 35%;
+		padding: 2%;
+		margin-left: 5%;
+		background-color: #999;
+
+	}
+	#enviar:hover{
+		background-color: #fff;
+	}
+	footer{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		background-color: #fff;
+		width: 100%;
+		text-align: center;
+	}
+}
